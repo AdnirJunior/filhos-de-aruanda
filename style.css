@@ -74,6 +74,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     flex: 1 1 350px;
+    justify-content: center;
 
 }
 .container-img{
@@ -110,6 +111,14 @@ h1{
     min-width: 350px;
         
 }
+.container-p1{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 350px;
+        
+}
 .container-p p{
     display: flex;
     width: 100%;
@@ -122,9 +131,18 @@ h1{
     padding-top: 40px;
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 .container3{
     max-width: 90%;
+}
+.container-direita-img{
+    max-width: 1200px
+}
+.container-direita-img .img-direita{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
 }
 .img-direita{
     width: 90%;
@@ -155,7 +173,9 @@ header{
     width: 100px;
     
 }
-
+nav .header-menu{
+    margin-right: 10px;
+}
 .header-menu li a{
     margin-left: 5px;
     margin-right: 2px;
@@ -175,7 +195,7 @@ header{
     min-width: 300px;
     width: 90%;
 }
-.container-p{
+.container-p, .container-p1{
     width: 100%;
     padding: 0;
 }
@@ -188,4 +208,3 @@ header{
     justify-content: center;
 }
 
-}
