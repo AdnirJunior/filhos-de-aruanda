@@ -182,7 +182,16 @@ nav .header-menu{
     padding: 5px;
 
 }
-
+h1{
+    width: 70%;
+    color: rgb(98, 85, 173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
 .container-img{
         width: 100%;
         flex-wrap: wrap;
@@ -208,3 +217,4 @@ nav .header-menu{
     justify-content: center;
 }
 
+}
