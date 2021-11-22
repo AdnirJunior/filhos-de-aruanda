@@ -21,11 +21,11 @@
     .cont1{
         width: 95%;
         margin: 0 auto;
-        padding-bottom: 400px;
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
-    .cont1-p{
-        height: 90px;
-    }
+    
+    
     .cab-guia{
         display: flex;
         justify-content: space-around;
@@ -38,6 +38,8 @@
     }
     .cab-guia img{
         width: 200px;
+        border-radius: 100%;
+        padding: 7px;
     }
     .cont1-pp{
         padding: 7px;
@@ -48,6 +50,12 @@
     }
     #pretos-velhospp{
         border-color: black;
+    }
+    #oxumpp{
+        border-color: gold;
+    }
+    #ogumpp{
+        border-color: blue;
     }
     
     }
