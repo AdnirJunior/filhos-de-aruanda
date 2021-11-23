@@ -1,0 +1,145 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+
+
+
+body{
+    background-color: 	#d2dcf7;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4F4F4F;
+}
+
+header{
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+    padding: 30px;
+    background-image: url(./img/guias/esquerda/cemiterio.jpg);
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+.header-logo
+    display: flex;
+    padding: 0px 0px 0px 20px;
+    width: 50%;
+}
+
+
+.header-nav{
+    
+}
+
+.header-menu li a{
+    color: #4F4F4F;
+    margin-right: 30px;
+    display: block;
+    padding: 10px;
+}
+
+.header-menu li a:hover{
+    background-color: rgb(169, 171, 233);
+    border-radius: 10px;
+    color: #130542;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    header{
+        padding: 15px 0;
+    }
+    
+        .header-logo{
+        display: flex;
+        padding: 0px 0px 0px 0px;
+        width: 100px;
+    }
+    
+    .header-logo img{
+        width: 100px;
+        
+    }
+    nav .header-menu{
+        margin-right: 10px;
+    }
+    .header-menu li a{
+        margin-left: 5px;
+        margin-right: 2px;
+        padding: 5px;
+    
+    }
+    .cont1{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .cont1-p{
+        height: 90px;
+    }
+    .cab-guia{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    
+    }
+    
+    @media screen and (min-width: 720px) {
+        
+        .cont1{
+            width: 95%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        
+        
+        .cab-guia{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        h2{
+            font-size: 70px;
+        }
+        .cab-guia img{
+            width: 200px;
+            border-radius: 100%;
+            padding: 7px;
+        }
+        .cont1-pp{
+            padding: 7px;
+            background-color: rgb(250, 250, 246);
+            border-color: rgb(77, 54, 207);
+            border-style: groove;
+            border-radius: 10px;
+        }
+        #pretos-velhospp{
+            border-color: black;
+        }
+        #oxumpp{
+            border-color: gold;
+        }
+        #ogumpp{
+            border-color: blue;
+        }
+        #paiogum{
+            max-height: 150px;
+        }
+        
+        }
