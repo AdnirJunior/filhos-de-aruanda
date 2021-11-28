@@ -1,19 +1,39 @@
 @media screen and (max-width: 720px) {
-    
+ul li{
+    font-size: small;
+}
+
 .cont1{
-    width: 90%;
+    min-width: 90%;
     display: flex;
     margin: 0 auto;
+    padding: 5px;
 }
+
 .cont1-p{
-    height: 90px;
+    width: 100%;
 }
 .cab-guia{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
-
+.cont1-pp{
+    background-color: rgb(224, 221, 213);
+    width: 90%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#guia1{
+    border-style: solid;
+    border-color: blue;
+}
+.cont1-img{
+    display: none;
+}
 }
 
 @media screen and (min-width: 720px) {
@@ -38,25 +58,26 @@
     }
     .cab-guia img{
         width: 200px;
-        border-radius: 100%;
         padding: 7px;
     }
     .cont1-pp{
+        display:block;
         padding: 7px;
         background-color: rgb(250, 250, 246);
-        border-color: rgb(77, 54, 207);
         border-style: groove;
         border-radius: 10px;
     }
-    #pretos-velhospp{
-        border-color: black;
-    }
-    #oxumpp{
-        border-color: gold;
-    }
-    #ogumpp{
+    #guia1{
+        border-style: solid;
         border-color: blue;
     }
-    
+    .cont1-img{
+        display: flex;
+        padding: 5px;
+    }
+    .cont1-img img{
+        border-radius: 7px;
+        margin: 0 auto;
+    }
     
     }
