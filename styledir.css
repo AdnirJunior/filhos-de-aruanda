@@ -14,11 +14,17 @@ ul li{
     width: 100%;
 }
 .cab-guia{
-    display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 20px;
     width: 90%;
     margin: 0 auto;
+    padding: 10px;
+}
+.cab-guia img{
+    margin: 0 auto;
+    display: flex;
+    border-radius: 20px;
+    width: 50%;
 }
 .cont1-pp{
     background-color: rgb(224, 221, 213);
@@ -26,10 +32,16 @@ ul li{
     border-radius: 20px;
     margin: 0 auto;
     padding: 10px;
-}
-#guia1{
     border-style: solid;
-    border-color: blue;
+}
+#guia1, #guia5{
+    border-color: rgb(0, 119, 255);
+}
+#guia2, #guia3{
+    border-color: gold;
+}
+#guia4{
+    border-color: green;
 }
 .cont1-img{
     display: none;
@@ -69,7 +81,7 @@ ul li{
         border-radius: 10px;
         border-style: solid;
     }
-    #guia1{
+    #guia1, #guia5{
         border-color: blue;
     }
     #guia2, #guia3{
