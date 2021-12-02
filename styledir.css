@@ -1,3 +1,16 @@
+#guia1, #guia5{
+    border-color: rgb(0, 119, 255);
+}
+#guia2, #guia3{
+    border-color: gold;
+}
+#guia4{
+    border-color: green;
+}
+#guia7{
+    border-color: red;
+}
+
 @media screen and (max-width: 720px) {
 ul li{
     font-size: small;
@@ -34,15 +47,7 @@ ul li{
     padding: 10px;
     border-style: solid;
 }
-#guia1, #guia5{
-    border-color: rgb(0, 119, 255);
-}
-#guia2, #guia3{
-    border-color: gold;
-}
-#guia4{
-    border-color: green;
-}
+
 .cont1-img{
     display: none;
 }
@@ -81,15 +86,7 @@ ul li{
         border-radius: 10px;
         border-style: solid;
     }
-    #guia1, #guia5{
-        border-color: blue;
-    }
-    #guia2, #guia3{
-        border-color: gold;
-    }
-    #guia4{
-        border-color: green;
-    }
+
     .cont1-img{
         display: flex;
         padding: 5px;
