@@ -32,9 +32,8 @@ header{
     
 }
 
-.header-logo
-    display: flex;
-    padding: 0px 0px 0px 20px;
+.header-menu{
+    margin-left: 30%;
     width: 50%;
 }
 
@@ -144,6 +143,7 @@ h1{
     justify-content: center;
     display: flex;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 .img-direita{
     width: 90%;
@@ -152,11 +152,42 @@ h1{
 }
 
 footer{
-    background-color: rgb(145, 145, 163);
-    text-align: right;
-    padding-right: 40px;
+  border-top: 1px solid rgb(86, 163, 250);
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-image: url(/img/imgnprontas/nuvens.png);
+  display: flex;
+  justify-content: space-around;
 }
 
+footer .footer-nav{
+    display: flex;
+    margin: 0 auto;
+}
+
+footer .footer-ul{
+    margin: 0 auto;
+}
+
+footer .footer-link{
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 05px;
+}
+
+footer .footer-link a:hover{
+    padding: 10px;
+    border-radius: 10px 0;
+    background-color: rgb(169, 171, 233, 0.6);
+}
 
 @media screen and (max-width: 720px) {
 
